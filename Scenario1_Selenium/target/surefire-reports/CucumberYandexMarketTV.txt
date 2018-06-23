@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: CucumberYandexMarketTV
+-------------------------------------------------------------------------------
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 191.853 sec - in CucumberYandexMarketTV

@@ -1,0 +1,11 @@
+steps\FilterSteps.class
+pages\BasePage.class
+util\TestProperties.class
+steps\MarketSteps.class
+util\AllureReporter.class
+pages\MarketPage.class
+steps\BaseSteps.class
+pages\FilterPage.class
+steps\MainSteps.class
+steps\Scenario1Steps.class
+pages\MainPage.class

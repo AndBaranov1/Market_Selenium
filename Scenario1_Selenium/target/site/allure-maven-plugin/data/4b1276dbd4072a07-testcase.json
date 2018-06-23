@@ -1,0 +1,386 @@
+{
+  "uid" : "4b1276dbd4072a07",
+  "name" : "Выбор наушников",
+  "title" : "Выбор наушников",
+  "time" : {
+    "start" : 1529724670214,
+    "stop" : 1529724767345,
+    "duration" : 97131
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 22
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "f3d7bf367a9eca84",
+    "name" : "Яндекс маркет",
+    "title" : "Яндекс маркет"
+  },
+  "steps" : [ {
+    "name" : "Когда выбран пункт меню \"Маркет\"",
+    "title" : "Когда выбран пункт меню \"Маркет\"",
+    "time" : {
+      "start" : 1529724690584,
+      "stop" : 1529724707956,
+      "duration" : 17372
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepSelectMainMenu[Маркет]",
+      "title" : "выбран пункт меню Маркет",
+      "time" : {
+        "start" : 1529724691575,
+        "stop" : 1529724707950,
+        "duration" : 16375
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И в всплывающем окне Ваш регион нажата кнопка - Да, всё верно",
+    "title" : "И в всплывающем окне Ваш регион нажата кнопка - Да, всё верно",
+    "time" : {
+      "start" : 1529724707959,
+      "stop" : 1529724708865,
+      "duration" : 906
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "regionDefenitionYesButton",
+      "title" : "нажата кнопка - Да, всё верно",
+      "time" : {
+        "start" : 1529724707967,
+        "stop" : 1529724708850,
+        "duration" : 883
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда выбран раздел меню \"Электроника\"",
+    "title" : "Когда выбран раздел меню \"Электроника\"",
+    "time" : {
+      "start" : 1529724708865,
+      "stop" : 1529724709418,
+      "duration" : 553
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepselectMenuMarket[Электроника]",
+      "title" : "выбран раздел меню Электроника",
+      "time" : {
+        "start" : 1529724708869,
+        "stop" : 1529724709417,
+        "duration" : 548
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И выбран пункт меню Электроника \"Наушники\"",
+    "title" : "И выбран пункт меню Электроника \"Наушники\"",
+    "time" : {
+      "start" : 1529724709419,
+      "stop" : 1529724724556,
+      "duration" : 15137
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepselectMenuElectro[Наушники]",
+      "title" : "выбран пункт меню ЭлектроникаНаушники",
+      "time" : {
+        "start" : 1529724709422,
+        "stop" : 1529724724556,
+        "duration" : 15134
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда нажата кнопка Перейти ко всем фильтрам",
+    "title" : "Когда нажата кнопка Перейти ко всем фильтрам",
+    "time" : {
+      "start" : 1529724724556,
+      "stop" : 1529724737940,
+      "duration" : 13384
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepselectadvancedFilter",
+      "title" : "нажата кнопка Перейти ко всем фильтрам",
+      "time" : {
+        "start" : 1529724724556,
+        "stop" : 1529724737940,
+        "duration" : 13384
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда заполняются поля:",
+    "title" : "Когда заполняются поля:",
+    "time" : {
+      "start" : 1529724737940,
+      "stop" : 1529724738420,
+      "duration" : 480
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepFillField[Сумма от, 5000]",
+      "title" : "поле Сумма от заполняется значением 5000",
+      "time" : {
+        "start" : 1529724737946,
+        "stop" : 1529724738420,
+        "duration" : 474
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда выбран производитель Beats",
+    "title" : "Тогда выбран производитель Beats",
+    "time" : {
+      "start" : 1529724738420,
+      "stop" : 1529724738849,
+      "duration" : 429
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepchBoxBeats",
+      "title" : "выбран производитель Beats",
+      "time" : {
+        "start" : 1529724738435,
+        "stop" : 1529724738849,
+        "duration" : 414
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда нажата кнопка Показать подходящие",
+    "title" : "Тогда нажата кнопка Показать подходящие",
+    "time" : {
+      "start" : 1529724738850,
+      "stop" : 1529724750606,
+      "duration" : 11756
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepapplyButton",
+      "title" : "нажата кнопка Показать подходящие",
+      "time" : {
+        "start" : 1529724738851,
+        "stop" : 1529724750606,
+        "duration" : 11755
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда поиск первого элемента из списка наушников",
+    "title" : "Тогда поиск первого элемента из списка наушников",
+    "time" : {
+      "start" : 1529724750606,
+      "stop" : 1529724750806,
+      "duration" : 200
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "firstElemSearchHp",
+      "title" : "поиск первого элемента из списка наушников",
+      "time" : {
+        "start" : 1529724750606,
+        "stop" : 1529724750806,
+        "duration" : 200
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И в строку поиска введено значение первого элемента",
+    "title" : "И в строку поиска введено значение первого элемента",
+    "time" : {
+      "start" : 1529724750821,
+      "stop" : 1529724753804,
+      "duration" : 2983
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "fillSearchField",
+      "title" : "в строку поиска введено значение первого элемента",
+      "time" : {
+        "start" : 1529724750822,
+        "stop" : 1529724753804,
+        "duration" : 2982
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда проверка наименования товара наушников, соответствует запомненному значению",
+    "title" : "Тогда проверка наименования товара наушников, соответствует запомненному значению",
+    "time" : {
+      "start" : 1529724753805,
+      "stop" : 1529724765848,
+      "duration" : 12043
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "checkTheFilledHp",
+      "title" : "проверка наименования товара наушников, соответствует запомненному значению",
+      "time" : {
+        "start" : 1529724753807,
+        "stop" : 1529724765848,
+        "duration" : 12041
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Выбор наушников"
+  }, {
+    "name" : "host",
+    "value" : "1-ПК"
+  }, {
+    "name" : "thread",
+    "value" : "5764@1-ПК.main(1)"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "suite-name",
+    "value" : "Яндекс маркет"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "feature",
+    "value" : "Яндекс маркет"
+  } ],
+  "parameters" : [ ]
+}

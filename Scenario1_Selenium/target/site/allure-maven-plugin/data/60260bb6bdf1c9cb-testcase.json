@@ -1,0 +1,416 @@
+{
+  "uid" : "60260bb6bdf1c9cb",
+  "name" : "Выбор телевизора",
+  "title" : "Выбор телевизора",
+  "time" : {
+    "start" : 1529724769580,
+    "stop" : 1529724858653,
+    "duration" : 89073
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 24
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "f3d7bf367a9eca84",
+    "name" : "Яндекс маркет",
+    "title" : "Яндекс маркет"
+  },
+  "steps" : [ {
+    "name" : "Когда выбран пункт меню \"Маркет\"",
+    "title" : "Когда выбран пункт меню \"Маркет\"",
+    "time" : {
+      "start" : 1529724781975,
+      "stop" : 1529724797930,
+      "duration" : 15955
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepSelectMainMenu[Маркет]",
+      "title" : "выбран пункт меню Маркет",
+      "time" : {
+        "start" : 1529724781978,
+        "stop" : 1529724797930,
+        "duration" : 15952
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда выбран раздел меню \"Электроника\"",
+    "title" : "Когда выбран раздел меню \"Электроника\"",
+    "time" : {
+      "start" : 1529724797931,
+      "stop" : 1529724798110,
+      "duration" : 179
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepselectMenuMarket[Электроника]",
+      "title" : "выбран раздел меню Электроника",
+      "time" : {
+        "start" : 1529724797937,
+        "stop" : 1529724798110,
+        "duration" : 173
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И выбран пункт меню Электроника \"Телевизоры\"",
+    "title" : "И выбран пункт меню Электроника \"Телевизоры\"",
+    "time" : {
+      "start" : 1529724798111,
+      "stop" : 1529724813142,
+      "duration" : 15031
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepselectMenuElectro[Телевизоры]",
+      "title" : "выбран пункт меню ЭлектроникаТелевизоры",
+      "time" : {
+        "start" : 1529724798112,
+        "stop" : 1529724813142,
+        "duration" : 15030
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда нажата кнопка Перейти ко всем фильтрам",
+    "title" : "Когда нажата кнопка Перейти ко всем фильтрам",
+    "time" : {
+      "start" : 1529724813143,
+      "stop" : 1529724825423,
+      "duration" : 12280
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepselectadvancedFilter",
+      "title" : "нажата кнопка Перейти ко всем фильтрам",
+      "time" : {
+        "start" : 1529724813148,
+        "stop" : 1529724825416,
+        "duration" : 12268
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда заполняются поля:",
+    "title" : "Когда заполняются поля:",
+    "time" : {
+      "start" : 1529724825428,
+      "stop" : 1529724825834,
+      "duration" : 406
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepFillField[Сумма от, 20000]",
+      "title" : "поле Сумма от заполняется значением 20000",
+      "time" : {
+        "start" : 1529724825430,
+        "stop" : 1529724825833,
+        "duration" : 403
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда выбран производитель Samsung",
+    "title" : "Тогда выбран производитель Samsung",
+    "time" : {
+      "start" : 1529724825834,
+      "stop" : 1529724826240,
+      "duration" : 406
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepchBoxSamsung",
+      "title" : "выбран производитель Samsung",
+      "time" : {
+        "start" : 1529724825836,
+        "stop" : 1529724826233,
+        "duration" : 397
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И выбран производитель LG",
+    "title" : "И выбран производитель LG",
+    "time" : {
+      "start" : 1529724826241,
+      "stop" : 1529724826558,
+      "duration" : 317
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepchBoxLg",
+      "title" : "выбран производитель LG",
+      "time" : {
+        "start" : 1529724826242,
+        "stop" : 1529724826558,
+        "duration" : 316
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда нажата кнопка Показать подходящие",
+    "title" : "Тогда нажата кнопка Показать подходящие",
+    "time" : {
+      "start" : 1529724826558,
+      "stop" : 1529724838700,
+      "duration" : 12142
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepapplyButton",
+      "title" : "нажата кнопка Показать подходящие",
+      "time" : {
+        "start" : 1529724826560,
+        "stop" : 1529724838700,
+        "duration" : 12140
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда количество элементов товара 48",
+    "title" : "Когда количество элементов товара 48",
+    "time" : {
+      "start" : 1529724838701,
+      "stop" : 1529724838878,
+      "duration" : 177
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "countElementsTv[48]",
+      "title" : "количество элементов товара",
+      "time" : {
+        "start" : 1529724838706,
+        "stop" : 1529724838878,
+        "duration" : 172
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда поиск первого элемента из списка телевизоров",
+    "title" : "Тогда поиск первого элемента из списка телевизоров",
+    "time" : {
+      "start" : 1529724838878,
+      "stop" : 1529724839319,
+      "duration" : 441
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "firstElemSearch1",
+      "title" : "поиск первого элемента из списка телевизоров",
+      "time" : {
+        "start" : 1529724838884,
+        "stop" : 1529724839318,
+        "duration" : 434
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И в строку поиска введено значение первого элемента",
+    "title" : "И в строку поиска введено значение первого элемента",
+    "time" : {
+      "start" : 1529724839321,
+      "stop" : 1529724843565,
+      "duration" : 4244
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "fillSearchField",
+      "title" : "в строку поиска введено значение первого элемента",
+      "time" : {
+        "start" : 1529724839323,
+        "stop" : 1529724843565,
+        "duration" : 4242
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда проверка наименования товара Tv, соответствует запомненному значению",
+    "title" : "Тогда проверка наименования товара Tv, соответствует запомненному значению",
+    "time" : {
+      "start" : 1529724843565,
+      "stop" : 1529724857486,
+      "duration" : 13921
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "checkTheFilledTv",
+      "title" : "проверка наименования товара Tv, соответствует запомненному значению",
+      "time" : {
+        "start" : 1529724843567,
+        "stop" : 1529724857486,
+        "duration" : 13919
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Выбор телевизора"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "1-ПК"
+  }, {
+    "name" : "thread",
+    "value" : "5764@1-ПК.main(1)"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "suite-name",
+    "value" : "Яндекс маркет"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "feature",
+    "value" : "Яндекс маркет"
+  } ],
+  "parameters" : [ ]
+}

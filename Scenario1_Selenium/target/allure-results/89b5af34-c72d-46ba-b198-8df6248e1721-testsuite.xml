@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1529724670167" stop="1529724767355" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Яндекс маркет</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1529724670214" stop="1529724767345" status="passed">
+            <name>Выбор наушников</name>
+            <title>Выбор наушников</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1529724690584" stop="1529724707956" status="passed">
+                    <name>Когда выбран пункт меню "Маркет"</name>
+                    <title>Когда выбран пункт меню "Маркет"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1529724691575" stop="1529724707950" status="passed">
+                            <name>stepSelectMainMenu[Маркет]</name>
+                            <title>выбран пункт меню Маркет</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1529724707959" stop="1529724708865" status="passed">
+                    <name>И в всплывающем окне Ваш регион нажата кнопка - Да, всё верно</name>
+                    <title>И в всплывающем окне Ваш регион нажата кнопка - Да, всё верно</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1529724707967" stop="1529724708850" status="passed">
+                            <name>regionDefenitionYesButton</name>
+                            <title>нажата кнопка - Да, всё верно</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1529724708865" stop="1529724709418" status="passed">
+                    <name>Когда выбран раздел меню "Электроника"</name>
+                    <title>Когда выбран раздел меню "Электроника"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1529724708869" stop="1529724709417" status="passed">
+                            <name>stepselectMenuMarket[Электроника]</name>
+                            <title>выбран раздел меню Электроника</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1529724709419" stop="1529724724556" status="passed">
+                    <name>И выбран пункт меню Электроника "Наушники"</name>
+                    <title>И выбран пункт меню Электроника "Наушники"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1529724709422" stop="1529724724556" status="passed">
+                            <name>stepselectMenuElectro[Наушники]</name>
+                            <title>выбран пункт меню ЭлектроникаНаушники</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1529724724556" stop="1529724737940" status="passed">
+                    <name>Когда нажата кнопка Перейти ко всем фильтрам</name>
+                    <title>Когда нажата кнопка Перейти ко всем фильтрам</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1529724724556" stop="1529724737940" status="passed">
+                            <name>stepselectadvancedFilter</name>
+                            <title>нажата кнопка Перейти ко всем фильтрам</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1529724737940" stop="1529724738420" status="passed">
+                    <name>Когда заполняются поля:</name>
+                    <title>Когда заполняются поля:</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1529724737946" stop="1529724738420" status="passed">
+                            <name>stepFillField[Сумма от, 5000]</name>
+                            <title>поле Сумма от заполняется значением 5000</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1529724738420" stop="1529724738849" status="passed">
+                    <name>Тогда выбран производитель Beats</name>
+                    <title>Тогда выбран производитель Beats</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1529724738435" stop="1529724738849" status="passed">
+                            <name>stepchBoxBeats</name>
+                            <title>выбран производитель Beats</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1529724738850" stop="1529724750606" status="passed">
+                    <name>Тогда нажата кнопка Показать подходящие</name>
+                    <title>Тогда нажата кнопка Показать подходящие</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1529724738851" stop="1529724750606" status="passed">
+                            <name>stepapplyButton</name>
+                            <title>нажата кнопка Показать подходящие</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1529724750606" stop="1529724750806" status="passed">
+                    <name>Тогда поиск первого элемента из списка наушников</name>
+                    <title>Тогда поиск первого элемента из списка наушников</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1529724750606" stop="1529724750806" status="passed">
+                            <name>firstElemSearchHp</name>
+                            <title>поиск первого элемента из списка наушников</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1529724750821" stop="1529724753804" status="passed">
+                    <name>И в строку поиска введено значение первого элемента</name>
+                    <title>И в строку поиска введено значение первого элемента</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1529724750822" stop="1529724753804" status="passed">
+                            <name>fillSearchField</name>
+                            <title>в строку поиска введено значение первого элемента</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1529724753805" stop="1529724765848" status="passed">
+                    <name>Тогда проверка наименования товара наушников, соответствует запомненному значению</name>
+                    <title>Тогда проверка наименования товара наушников, соответствует запомненному значению</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1529724753807" stop="1529724765848" status="passed">
+                            <name>checkTheFilledHp</name>
+                            <title>проверка наименования товара наушников, соответствует запомненному значению</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Выбор наушников"/>
+                <label name="feature" value="Яндекс маркет"/>
+                <label name="host" value="1-ПК"/>
+                <label name="thread" value="5764@1-ПК.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Яндекс маркет"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

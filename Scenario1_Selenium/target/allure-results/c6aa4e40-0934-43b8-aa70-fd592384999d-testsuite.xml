@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1529724769018" stop="1529724858653" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Яндекс маркет</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1529724769580" stop="1529724858653" status="passed">
+            <name>Выбор телевизора</name>
+            <title>Выбор телевизора</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1529724781975" stop="1529724797930" status="passed">
+                    <name>Когда выбран пункт меню "Маркет"</name>
+                    <title>Когда выбран пункт меню "Маркет"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1529724781978" stop="1529724797930" status="passed">
+                            <name>stepSelectMainMenu[Маркет]</name>
+                            <title>выбран пункт меню Маркет</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1529724797931" stop="1529724798110" status="passed">
+                    <name>Когда выбран раздел меню "Электроника"</name>
+                    <title>Когда выбран раздел меню "Электроника"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1529724797937" stop="1529724798110" status="passed">
+                            <name>stepselectMenuMarket[Электроника]</name>
+                            <title>выбран раздел меню Электроника</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1529724798111" stop="1529724813142" status="passed">
+                    <name>И выбран пункт меню Электроника "Телевизоры"</name>
+                    <title>И выбран пункт меню Электроника "Телевизоры"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1529724798112" stop="1529724813142" status="passed">
+                            <name>stepselectMenuElectro[Телевизоры]</name>
+                            <title>выбран пункт меню ЭлектроникаТелевизоры</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1529724813143" stop="1529724825423" status="passed">
+                    <name>Когда нажата кнопка Перейти ко всем фильтрам</name>
+                    <title>Когда нажата кнопка Перейти ко всем фильтрам</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1529724813148" stop="1529724825416" status="passed">
+                            <name>stepselectadvancedFilter</name>
+                            <title>нажата кнопка Перейти ко всем фильтрам</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1529724825428" stop="1529724825834" status="passed">
+                    <name>Когда заполняются поля:</name>
+                    <title>Когда заполняются поля:</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1529724825430" stop="1529724825833" status="passed">
+                            <name>stepFillField[Сумма от, 20000]</name>
+                            <title>поле Сумма от заполняется значением 20000</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1529724825834" stop="1529724826240" status="passed">
+                    <name>Тогда выбран производитель Samsung</name>
+                    <title>Тогда выбран производитель Samsung</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1529724825836" stop="1529724826233" status="passed">
+                            <name>stepchBoxSamsung</name>
+                            <title>выбран производитель Samsung</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1529724826241" stop="1529724826558" status="passed">
+                    <name>И выбран производитель LG</name>
+                    <title>И выбран производитель LG</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1529724826242" stop="1529724826558" status="passed">
+                            <name>stepchBoxLg</name>
+                            <title>выбран производитель LG</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1529724826558" stop="1529724838700" status="passed">
+                    <name>Тогда нажата кнопка Показать подходящие</name>
+                    <title>Тогда нажата кнопка Показать подходящие</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1529724826560" stop="1529724838700" status="passed">
+                            <name>stepapplyButton</name>
+                            <title>нажата кнопка Показать подходящие</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1529724838701" stop="1529724838878" status="passed">
+                    <name>Когда количество элементов товара 48</name>
+                    <title>Когда количество элементов товара 48</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1529724838706" stop="1529724838878" status="passed">
+                            <name>countElementsTv[48]</name>
+                            <title>количество элементов товара</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1529724838878" stop="1529724839319" status="passed">
+                    <name>Тогда поиск первого элемента из списка телевизоров</name>
+                    <title>Тогда поиск первого элемента из списка телевизоров</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1529724838884" stop="1529724839318" status="passed">
+                            <name>firstElemSearch1</name>
+                            <title>поиск первого элемента из списка телевизоров</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1529724839321" stop="1529724843565" status="passed">
+                    <name>И в строку поиска введено значение первого элемента</name>
+                    <title>И в строку поиска введено значение первого элемента</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1529724839323" stop="1529724843565" status="passed">
+                            <name>fillSearchField</name>
+                            <title>в строку поиска введено значение первого элемента</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1529724843565" stop="1529724857486" status="passed">
+                    <name>Тогда проверка наименования товара Tv, соответствует запомненному значению</name>
+                    <title>Тогда проверка наименования товара Tv, соответствует запомненному значению</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1529724843567" stop="1529724857486" status="passed">
+                            <name>checkTheFilledTv</name>
+                            <title>проверка наименования товара Tv, соответствует запомненному значению</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Выбор телевизора"/>
+                <label name="feature" value="Яндекс маркет"/>
+                <label name="host" value="1-ПК"/>
+                <label name="thread" value="5764@1-ПК.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Яндекс маркет"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

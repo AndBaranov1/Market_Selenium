@@ -1,0 +1,25 @@
+{
+  "testCases" : [ {
+    "uid" : "4b1276dbd4072a07",
+    "name" : "Выбор наушников",
+    "title" : "Выбор наушников",
+    "time" : {
+      "start" : 1529724670214,
+      "stop" : 1529724767345,
+      "duration" : 97131
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "60260bb6bdf1c9cb",
+    "name" : "Выбор телевизора",
+    "title" : "Выбор телевизора",
+    "time" : {
+      "start" : 1529724769580,
+      "stop" : 1529724858653,
+      "duration" : 89073
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  } ]
+}
